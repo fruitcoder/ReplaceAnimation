@@ -6,5 +6,13 @@ I really liked Zee Young's animation so I gave it a shot on iOS. Since I wanted 
 
 It's basically a `UICollectionView` with a sticky header flow layout (this one is based on https://github.com/Blackjacx/StickyHeaderFlowLayout) and all the parallax effects happen in `applyLayoutAttributes:`.
 
+I added some jokes from "http://tambal.azurewebsites.net/joke/random" just so it's a little more interesting :)
+
+![demo](RefreshSuccess.gif) 
+
+![demo](RefreshCancel.gif) 
+
+![demo](Scrolling.gif)
+
 # License
 Available under MIT license. See the [LICENSE](https://github.com/fruitcoder/ReplaceAnimation/blob/master/LICENSE) for more info.
