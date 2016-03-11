@@ -8,11 +8,14 @@ It's basically a `UICollectionView` with a sticky header flow layout (this one i
 
 I added some jokes from "http://tambal.azurewebsites.net/joke/random" just so it's a little more interesting :)
 
-![demo](RefreshSuccess.gif) 
+## Refreshing
+![alt tag](RefreshSuccess.gif) 
 
-![demo](RefreshCancel.gif) 
+## Cancelling Refresh Animation
+![alt tag](RefreshCancel.gif) 
 
-![demo](Scrolling.gif)
+## Scrolling
+![alt tag](Scrolling.gif)
 
 # License
 Available under MIT license. See the [LICENSE](https://github.com/fruitcoder/ReplaceAnimation/blob/master/LICENSE) for more info.
