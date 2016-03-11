@@ -150,9 +150,15 @@ class ViewController: UICollectionViewController {
   }
   
   override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
-    coordinator.animateAlongsideTransition({ (context) -> Void in
-      self.collectionView?.collectionViewLayout.invalidateLayout()
+    if let layout: StickyHeaderLayout = self.collectionView?.collectionViewLayout as? StickyHeaderLayout {
+      layout.parallaxHeaderMinimumReferenceSize = CGSizeMake(size.width, 60)
+      layout.parallaxHeaderReferenceSize = CGSizeMake(size.width, 0.56 * size.width)
+      layout.itemSize = CGSizeMake(size.width, layout.itemSize.height)
+      
+      coordinator.animateAlongsideTransition({ (context) -> Void in
+        layout.invalidateLayout()
       }, completion: nil)
+    }
   }
 
   func handlePan(pan : UIPanGestureRecognizer) {
