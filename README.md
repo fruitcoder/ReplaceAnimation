@@ -17,5 +17,11 @@ I added some jokes from "http://tambal.azurewebsites.net/joke/random" just so it
 ## Scrolling
 ![alt tag](Scrolling.gif)
 
+# Contribution
+Any contribution is welcome. Just submit a pull request.
+
+# Questions?
+If you have any questions about why or how I solved certain things or the code doesn't make sense to you, just write me a message on Twitter.
+
 # License
 Available under MIT license. See the [LICENSE](https://github.com/fruitcoder/ReplaceAnimation/blob/master/LICENSE) for more info.
