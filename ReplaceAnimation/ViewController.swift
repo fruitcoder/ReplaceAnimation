@@ -125,7 +125,7 @@ class ViewController: UICollectionViewController {
         picker.mailComposeDelegate = self
         picker.setSubject("Replace Animation")
         picker.setMessageBody("Any questions on the implementation?", isHTML: false)
-        picker.setToRecipients(["alex.hue91gmail.com"])
+        picker.setToRecipients(["alexhue91gmail.com"])
         
         self.presentViewController(picker, animated: true, completion: nil)
       }
