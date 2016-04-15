@@ -108,11 +108,11 @@ class MailButton: UIButton {
   }
   
   private func addTargets() {
-    self.addTarget(self, action: "touchDown:", forControlEvents: UIControlEvents.TouchDown)
-    self.addTarget(self, action: "touchUpInside:", forControlEvents: UIControlEvents.TouchUpInside)
-    self.addTarget(self, action: "touchDragExit:", forControlEvents: UIControlEvents.TouchDragExit)
-    self.addTarget(self, action: "touchDragEnter:", forControlEvents: UIControlEvents.TouchDragEnter)
-    self.addTarget(self, action: "touchCancel:", forControlEvents: UIControlEvents.TouchCancel)
+    self.addTarget(self, action: #selector(MailButton.touchDown(_:)), forControlEvents: UIControlEvents.TouchDown)
+    self.addTarget(self, action: #selector(MailButton.touchUpInside(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+    self.addTarget(self, action: #selector(MailButton.touchDragExit(_:)), forControlEvents: UIControlEvents.TouchDragExit)
+    self.addTarget(self, action: #selector(MailButton.touchDragEnter(_:)), forControlEvents: UIControlEvents.TouchDragEnter)
+    self.addTarget(self, action: #selector(MailButton.touchCancel(_:)), forControlEvents: UIControlEvents.TouchCancel)
   }
   
   internal func touchDown(sender: MailButton) {

@@ -67,7 +67,7 @@ class ViewController: UICollectionViewController {
       layout.parallaxHeaderAlwaysOnTop = true
       layout.disableStickyHeaders = true
       self.collectionView?.collectionViewLayout = layout
-      self.collectionView?.panGestureRecognizer.addTarget(self, action: Selector("handlePan:"))
+      self.collectionView?.panGestureRecognizer.addTarget(self, action: #selector(ViewController.handlePan(_:)))
     }
     
     threshold = -floor(0.3 * screenBounds.width)
