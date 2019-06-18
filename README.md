@@ -9,13 +9,14 @@ It's basically a `UICollectionView` with a sticky header flow layout (this one i
 I added some jokes from "http://tambal.azurewebsites.net/joke/random" just so it's a little more interesting :)
 
 ## Refreshing
-![alt tag](RefreshSuccess.gif) 
+<img align="left" src="https://github.com/ivanvorobei/ReplaceAnimation/blob/master/RefreshSuccess.gif" width="400"/>
 
 ## Cancelling Refresh Animation
-![alt tag](RefreshCancel.gif) 
+## Refreshing
+<img align="left" src="https://github.com/ivanvorobei/ReplaceAnimation/blob/master/RefreshCancel.gif" width="400"/>
 
 ## Scrolling
-![alt tag](Scrolling.gif)
+<img align="left" src="https://github.com/ivanvorobei/ReplaceAnimation/blob/master/Scrolling.gif" width="400"/>
 
 # Contribution
 Any contribution is welcome. Just submit a pull request.
