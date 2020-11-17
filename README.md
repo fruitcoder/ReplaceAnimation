@@ -1,4 +1,4 @@
-# ReplaceAnimation
+# ReplaceAnimation [![codebeat](https://codebeat.co/badges/17b69dff-3ee4-498f-ab7d-0e96e49fd3cb)](https://codebeat.co/projects/github-com-fruitcoder-replaceanimation)
 Implementation of Zee Young's Dribbble animation (https://dribbble.com/shots/2067564-Replace)
 
 # Info
